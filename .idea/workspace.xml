@@ -8,13 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13dad8dc-a03e-478d-8597-951a07c1740c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/calculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/calculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/calculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/calculatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +69,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.calculatorTest">
+  <component name="RunManager" selected="Application.calculator">
     <configuration name="calculator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.calculator" />
       <module name="calculator" />
@@ -131,8 +129,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.calculatorTest" />
         <item itemvalue="Application.calculator" />
+        <item itemvalue="JUnit.calculatorTest" />
         <item itemvalue="JUnit.calculatorTest (1)" />
         <item itemvalue="Application.calculator (1)" />
         <item itemvalue="JUnit.calculatorTest.divwithzero" />
@@ -167,8 +165,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/calculator$calculator.ic" NAME="calculator Coverage Results" MODIFIED="1657050057313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/calculator$calculator.exec" NAME="calculator Coverage Results" MODIFIED="1657052218272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/calculator$calculatorTest.exec" NAME="calculatorTest Coverage Results" MODIFIED="1657051040311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/calculator$calculator.exec" NAME="calculator Coverage Results" MODIFIED="1657056132126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/calculator$calculatorTest.exec" NAME="calculatorTest Coverage Results" MODIFIED="1657054351481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/calculator$calculatorTest.ic" NAME="calculatorTest Coverage Results" MODIFIED="1657050887902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
