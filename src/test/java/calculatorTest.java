@@ -1,15 +1,15 @@
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class calculatorTest {
-    @org.junit.jupiter.api.Test
+    @Test
     void add() {
    calculator cal=new calculator(null);
    Assertions.assertEquals(cal.add(5,3),8);
     }
-    @org.junit.jupiter.api.Test
+    @Test
     void sub() {
         calculator cal=new calculator(null);
         Assertions.assertEquals(cal.sub(5,3),2);
@@ -31,4 +31,25 @@ class calculatorTest {
         calculator cal=new calculator(null);
         Assertions.assertEquals("standared",cal.name,"wrong");
     }
+
+    @Test
+    void mult() {
+        calculator cal=new calculator(null);
+        Assertions.assertEquals(cal.mult(5,3),15);
+    }
+
+    @Test
+    void div() {
+        calculator cal=new calculator(null);
+        Assertions.assertEquals(cal.div(10,2),5);
+    }
+    @Test
+    void divwithzero() {
+        calculator cal=new calculator(null);
+        try{
+            cal.div(5,0);
+            fail("should throw exception");
+        }catch (RuntimeException e){}
+    }
+
 }
