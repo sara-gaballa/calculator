@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13dad8dc-a03e-478d-8597-951a07c1740c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/calculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/calculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/calculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/calculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/calculatorTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.calculatorTest.testnegativenum">
     <configuration name="calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="calculator" />
       <module name="calculator" />
@@ -59,9 +60,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="calculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="calculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="calculatorTest.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="calculatorTest" />
+      <option name="METHOD_NAME" value="name" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="calculatorTest.sub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="calculatorTest" />
+      <option name="METHOD_NAME" value="sub" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="calculatorTest.testnegativenum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="calculatorTest" />
+      <option name="METHOD_NAME" value="testnegativenum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.calculatorTest.testnegativenum" />
         <item itemvalue="Application.calculator" />
+        <item itemvalue="JUnit.calculatorTest.name" />
+        <item itemvalue="JUnit.calculatorTest" />
+        <item itemvalue="JUnit.calculatorTest.sub" />
       </list>
     </recent_temporary>
   </component>
@@ -86,5 +130,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/calculator$calculator.ic" NAME="calculator Coverage Results" MODIFIED="1657047894006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/calculator$calculatorTest.ic" NAME="calculatorTest Coverage Results" MODIFIED="1657047506097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

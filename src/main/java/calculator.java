@@ -3,7 +3,7 @@ import com.google.common.base.Strings;
 import java.util.Scanner;
 
 public class calculator {
-    private final String name;
+    public final String name;
     public calculator(String name) {
         if(Strings.isNullOrEmpty(name))
         this.name = "standared";
